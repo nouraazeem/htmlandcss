@@ -1,17 +1,25 @@
-span{
-    /* display: block; */
-    /* in line element can only have padding, not margin */
+.error{
+    color: red;
+}
+
+
+
+
+
+/* span{
+    display: block;
+    in line element can only have padding, not margin
     display: inline-block;
     margin: 20px;
     padding: 20px;
 }
 div{
-    /* display: inline; */
-    /* block elements can have margin and padding */
+    display: inline;
+    block elements can have margin and padding
     border: 2px solid crimson;
     margin: 20px;
     padding: 20px;
-}
+} */
 
 /* h1{
     color:orange;
