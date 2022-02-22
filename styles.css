@@ -172,10 +172,28 @@ p::selection{
     .banner .welcome span{
         font-size: 1em;
     }
-    .image li{
-        
+    .images li{
+        width: 100%;
+        margin: 20px auto;  
+        display: block;
     }
 
+}
+
+@media screen and (max-width: 560px){
+    nav li{
+        font-size: 20px;
+        position: relative;
+        display: block; 
+        width: 100%;
+        margin: 12px 0;
+    }
+    header{
+        position: relative;
+    }
+    nav{
+        top: 0;
+    }
 }
 
 
